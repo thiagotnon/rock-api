@@ -94,5 +94,5 @@ Route.group(() => {
         ]))
   Route.get('/tracks/:id/albums', 'TrackController.albums')
 
-}).prefix('api/v1')
+}).middleware().prefix('api/v1')
 
