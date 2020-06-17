@@ -13,7 +13,7 @@ Rock API Backend with NodeJS and AdonisJS.
 Create a Data Base on your SGDB. Exemple with MySQL:
 
 ```bash
-CREATE SCHEMA 'rockapi' DEFAULT CHARACTER SET utf8;
+CREATE SCHEMA `rockapi` DEFAULT CHARACTER SET utf8;
 ```
 
 To config the project, run the following commands below: 
